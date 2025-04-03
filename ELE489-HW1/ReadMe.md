@@ -48,7 +48,7 @@ The **UCI Wine Recognition Dataset** contains:
 ```bash
 git clone
 cd wine-knn-classification
-
+```
 2. **Dataset Setup**:
 -   Download wine.csv from UCI Machine Learning Repository
 -   Place in project root directory
@@ -57,14 +57,16 @@ cd wine-knn-classification
 - **Run Full Analysis**:
   ```bash
   python knn.py
-
+  ```
+  
   Tests all k-values (1,3,5,7,9) with both distance metrics
   Generates console reports and confusion matrice
 
 - **2. Explore Interactive Analysis:**:
   ```bash
   jupyter notebook analysis.ipynb
-
+  ```
+  
   Contains:
     - Feature distribution visualizations
     - Metric comparison plots
