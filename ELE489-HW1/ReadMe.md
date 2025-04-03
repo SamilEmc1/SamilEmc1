@@ -46,7 +46,7 @@ The **UCI Wine Recognition Dataset** contains:
 
 1. **Clone Repository**:
 ```bash
-git clone
+git clone https://github.com/SamilEmc1/SamilEmc1/tree/main/ELE489-HW1
 cd wine-knn-classification
 ```
 2. **Dataset Setup**:
@@ -66,7 +66,7 @@ cd wine-knn-classification
   ```bash
   jupyter notebook analysis.ipynb
   ```
-  
+
   Contains:
     - Feature distribution visualizations
     - Metric comparison plots
@@ -91,5 +91,4 @@ cd wine-knn-classification
 | 7       | 94%                | 91%                |
 | 9       | 91%                | 89%                |
 
-![Confusion Matrix Example](images/confusion_matrix_k3.png)  
-*Confusion matrix for optimal configuration (k=3)*
+
