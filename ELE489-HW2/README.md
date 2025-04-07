@@ -71,7 +71,7 @@ We use a decision tree algorithm (`sklearn.tree.DecisionTreeClassifier`) to trai
 2. **Local Setup (Optional)**:  
    Clone the repository and install dependencies:
    ```bash
-   git clone https://github.com/SamilEmc1/SamilEmc1/tree/main/HW2
+   git clone https://github.com/SamilEmc1/SamilEmc1/tree/main/ELE489-HW2
    cd banknote-authentication
    
    ```
