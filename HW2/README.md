@@ -1,4 +1,18 @@
-# Banknote Authentication using Decision Trees
+# Q1. Root Node Selection Using Gini Index 
+
+## Decision
+**Weather** is selected as the root node because it has the **lowest Gini Index** (0.1667 vs. Wind's 0.4444).
+
+---
+
+## Key Results
+| Feature   | Weighted Gini Index | Outcome                     |
+|-----------|---------------------|-----------------------------|
+| **Weather** | 0.1667              | ✅ **Chosen as root node**  |
+| Wind      | 0.4444              | ❌ Higher impurity          |
+
+
+# Q2. Banknote Authentication using Decision Trees
 
 This project implements a **Decision Tree Classifier** to authenticate banknotes based on image-derived statistical features. The dataset is sourced from the UCI Machine Learning Repository.
 
@@ -57,7 +71,7 @@ We use a decision tree algorithm (`sklearn.tree.DecisionTreeClassifier`) to trai
 2. **Local Setup (Optional)**:  
    Clone the repository and install dependencies:
    ```bash
-   git clone https://github.com/your-username/banknote-authentication.git
+   git clone https://github.com/SamilEmc1/SamilEmc1/tree/main/HW2
    cd banknote-authentication
    
    ```
